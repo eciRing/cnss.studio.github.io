@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+    <title>Use my jekyll theme</title>
+    <meta name="description" content="电子科技大学凝聚网络安全工作室">
+    <meta name="robots" content="index,follow">
+    
+        <meta name="author" content="Lukas Himsel">
+    
+    <meta itemprop="name" content="CNSS">
+
+    <meta property="og:url" content="http://localhost:4000/abandoned_files/2016-09-19-use-my-jekyll-theme.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Use my jekyll theme" />
+    <meta property="og:description" content="电子科技大学凝聚网络安全工作室" />
+    <meta property="og:image" content="http://localhost:4000/images/favicon.png" />
+    <meta property="og:image:type" content="image/png" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content=" "lukashimsel" " />
+    <meta name="twitter:title" content="Use my jekyll theme" />
+    <meta name="twitter:description" content="电子科技大学凝聚网络安全工作室" />
+    <meta name="twitter:image" content="http://localhost:4000/images/favicon.png" />
+
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM feed">
+    <link href="/feed.xml" type="application/rss+xml" rel="alternate" title="RSS feed">
+
+
+    <link rel="shortcut icon" href="/images/favicon.png">
+
+    <link rel="stylesheet" href="/styles/mlz/mlz.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/syntax.css">
+    <link rel="stylesheet" href="/styles/github-markdown.css">
+    <link rel="stylesheet" href="/styles/fa/css/font-awesome.min.css">
+
+    <!-- <script src="/styles/jquery.min.js" charset="utf-8"></script>
+    <script src="/styles/ban.js" charset="utf-8"></script> -->
+    <script src="/styles/canvasparticles/config.js" charset="utf-8"></script>
+    <script src="/styles/canvasparticles/canvas-particle.js" charset="utf-8"></script>
+
+</head>
+
+  <body>
+    <!-- <canvas id="canvas" width="300" height="300" style="width: 100%; height: 100%
+    position: absolutely; z-index: -1"></canvas> -->
+    <canvas id="canvas-particle" style="position:absolute;top:0px;left:0px;z-index:-1;"></canvas>
+    <div class="container">
+      <div class="section my-section" itemprop="mainContentOfPage" itemscope itemtype="https://schema.org/WebPageElement">
+        <h1 itemprop="headline"><a class="my-name" href="/">CNSS</a></h1>
+        <p class="my-description" itemprop="text">
+          UESTC CNSS - 电子科技大学凝聚网络安全工作室
+          <br>
+          <i class="fa fa-map-marker"></i> 电子科技大学／中国／成都
+        </p>
+        <div class="row">
+          <div class="col s12 m8 offset-m2 l6 offset-l3">
+            <article class="left-align" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <h2 class="my-mini-heading" itemprop="name headline">Use my jekyll theme<br>
+    <span class="my-mini-heading-sub">
+    <time datetime="2016-09-20T04:10:00+08:00" itemprop="datePublished">
+      Sep 20, 2016
+    </time>
+    </span></h2>
+
+  <div class="my-text-body">
+    <h2 id="hints">Hints</h2>
+
+<p>If you want to use my jekyll theme, follow the instructions and host it yourself. Easily setup as a Github page.</p>
+
+<p>To add pages (for example a portfolio, an extra about page, and so on), you need to link them to the <code class="highlighter-rouge">index.html</code> manually. Required to configure in this dimensions is a bit of html and jekyll know-how. Reading the <a href="http://jekyllrb.com/docs/pages/">Jekyll docs</a> could help. All other things are easy to edit and configure, even without much jekyll experience.</p>
+
+<h4 id="theme-features">Theme features</h4>
+<ul>
+  <li>Projects showcase</li>
+  <li>RSS and ATOM feed</li>
+  <li>Blogpost pagination</li>
+  <li>SEO meta tags, <em>schema.org</em> structured data</li>
+  <li><a href="https://dev.twitter.com/cards/getting-started">twitter</a> cards</li>
+  <li>made with MaterializeCSS</li>
+  <li>Disqus comments</li>
+</ul>
+
+<h2 id="setup">Setup</h2>
+
+<h3 id="1-get-the-sources">1. Get the sources</h3>
+
+<h4 id="11-clone">1.1 Clone</h4>
+
+<p>Clone the repository from github:<br />
+<a href="https://github.com/lukas-h/material-theme.git">https://github.com/lukas-h/material-theme.git</a></p>
+
+<h4 id="12-or-download">1.2 or download</h4>
+<p><a href="https://github.com/lukas-h/material-theme/archive/gh-pages.zip">https://github.com/lukas-h/material-theme/archive/gh-pages.zip</a></p>
+
+<h3 id="2-configure">2. Configure</h3>
+<ul>
+  <li>
+    <p>Replace all the configuration in <code class="highlighter-rouge">_config.yml</code> and <code class="highlighter-rouge">_data/projects.yml</code> by your own data. Change the name, email address, configure your your language settings.<br />
+And most important: change the site’s URL! Optionally add your google analytics ID.</p>
+  </li>
+  <li>
+    <p>Put your address and legal info into <code class="highlighter-rouge">imprint.html</code>.</p>
+  </li>
+  <li>
+    <p>Change the icon <code class="highlighter-rouge">images/favicon.png</code>.</p>
+  </li>
+  <li>
+    <p>Replace the domain name in the <code class="highlighter-rouge">robots.txt</code></p>
+  </li>
+  <li>
+    <p>Don’t forget the <code class="highlighter-rouge">README.md</code>.</p>
+  </li>
+</ul>
+
+<h3 id="3-start-writing-posts">3. Start writing posts</h3>
+<p>Replace the existing example post and then add your own!<br />
+Have a look at the <a href="http://jekyllrb.com/docs/posts/">Jekyll docs</a>
+about how to write blog posts.<br />
+To add tags to your posts, look into the example, you’ll see that there is
+a line starting with <code class="highlighter-rouge">tags:</code>. Add your keywords there.</p>
+
+<h3 id="4-youre-done">4. You’re done</h3>
+<p>Take a stop on the Github project page. Feel free to give a star and share it with others!<br />
+You have questions, feedback or something to improve, mail me or open issues on github. Contributions are always welcome.<br />
+Thanks to them who have already <a href="https://github.com/lukas-h/material-theme/graphs/contributors">helped</a> to improve, especially <a href="https://github.com/varundey">@varundey</a>!<br />
+See the <a href="https://github.com/lukas-h/material-theme">Github Project</a></p>
+
+  </div>
+
+  <p class="center-align my-text-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    
+      <span itemprop="name">an article by Lukas Himsel</span>
+    
+    <br>
+    
+      <i class="fa fa-tags" aria-hidden="true"></i>
+      
+        <span class="my-tag">english</span>&ensp;
+      
+        <span class="my-tag">jekyll</span>&ensp;
+      
+        <span class="my-tag">theme</span>&ensp;
+      
+    
+  </p>
+
+  <div class="center-align">
+  
+    <a class="waves-effect waves-teal btn-flat btn-large my-thin-btn disabled"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+  
+  <a class="waves-effect waves-teal btn-flat btn-large" href="/">HomePage</a>
+  
+        <a class="waves-effect waves-teal btn-flat btn-large my-thin-btn disabled"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+  
+  </div>
+</article>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="my-footer z-depth-2">
+    <p>
+        <a class="waves-effect waves-teal btn-flat my-imprint-link" href="/imprint.html">Imprint</a>
+        
+        
+        
+    </p>
+</footer>
+<script type="text/javascript" src="/styles/jquery.js"></script>
+<script type="text/javascript" src="/styles/mlz/mlz.js"></script>
+<script type="text/javascript" src="/styles/headroom.js"></script>
+<script type="text/javascript" src="/styles/jQuery.headroom.js"></script>
+<script> $(".my-footer").headroom(); </script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+    <script src="/styles/canvasparticles/config.js" charset="utf-8"></script>
+    <script src="/styles/canvasparticles/canvas-particle.js" charset="utf-8"></script>
+
+  </body>
+</html>

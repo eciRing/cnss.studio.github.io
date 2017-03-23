@@ -1,0 +1,62 @@
+title: "CNSS"
+description: "电子科技大学凝聚网络安全工作室"
+about: "UESTC CNSS - 电子科技大学凝聚网络安全工作室"
+location: "电子科技大学／中国／成都"
+email:
+baseurl: ""
+
+url: "http://cnss.studio/" # replace by your site's url
+twitter_username:
+github_username:
+author: "cnss"
+
+# google analytics tracking code, please change the value
+g_analytics: ""
+
+# add your disqus to enable comments
+disqus_shortname:
+
+# add your disqus to enable comments
+disqus_shortname:
+
+# language settings
+isolang: zh
+close_btn: "Return"
+home_btn: "HomePage"
+projects_btn: "Events"
+posts_btn: "Drops"
+imprint_btn: "Imprint"
+name_badge: "an article by"
+rss_badge: "Subscribe feed!"
+
+# build settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    tab_width: 4
+
+# third party gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  - jemoji
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-gist
+  - jemoji
+
+# exclude files
+exclude:
+  - LICENSE
