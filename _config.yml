@@ -23,8 +23,8 @@ disqus_shortname:
 isolang: zh
 close_btn: "Return"
 home_btn: "HomePage"
-projects_btn: "Events"
-posts_btn: "Drops"
+projects_btn: "CTF Games"
+posts_btn: "Learn Path"
 imprint_btn: "Imprint"
 name_badge: "an article by"
 rss_badge: "Subscribe feed!"
