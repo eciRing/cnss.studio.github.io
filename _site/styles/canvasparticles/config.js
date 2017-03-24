@@ -4,7 +4,7 @@
 				vy: 4,
 				height: 2,
 				width: 2,
-				count: 120,
+				count: 80,
 				color: "74, 166, 172",
 				stroke: "74, 166, 172",
 				dist: 10000,
