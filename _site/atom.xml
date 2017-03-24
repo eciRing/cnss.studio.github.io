@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>CNSS</title>
- <link href="http://cnss.studio//atom.xml" rel="self"/>
- <link href="http://cnss.studio/"/>
- <updated>2017-03-24T10:31:03+08:00</updated>
- <id>http://cnss.studio/</id>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000"/>
+ <updated>2017-03-24T10:41:28+08:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name>cnss</name>
    <email></email>
